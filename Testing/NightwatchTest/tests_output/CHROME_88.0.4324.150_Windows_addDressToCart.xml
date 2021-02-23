@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="addDressToCart"
+    errors="0" failures="0" hostname="" id="" package="addDressToCart" skipped="0"
+    tests="1" time="3.953" timestamp="">
+  
+    <testcase name="AP Search for blouse" classname="addDressToCart" time="3.953" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

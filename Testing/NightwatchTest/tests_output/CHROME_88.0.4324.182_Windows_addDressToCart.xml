@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="2"
+            tests="1">
+
+  <testsuite name="addDressToCart"
+    errors="0" failures="2" hostname="" id="" package="addDressToCart" skipped="0"
+    tests="1" time="35.18" timestamp="">
+  
+    <testcase name="AP Search for blouse" classname="addDressToCart" time="35.18" assertions="19">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Testing if element &lt;#total_price&gt; contains text &#39;$28.00&#39; in 5000ms - expected &#34;contains text &#39;$28.00&#39;&#34; but got: &#34;does not contain &#39;$28.00&#39;&#34; (5114ms)">    at Object.AP Search for blouse (F:\Redstone\NightwatchTest\tests\addDressToCart.js:42:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
+
+      <failure message="Testing if element &lt;#center_column &gt; div &gt; span &gt; strong&gt; contains text &#39;$28.00&#39; in 5000ms - expected &#34;contains text &#39;$28.00&#39;&#34; but got: &#34;does not contain &#39;$28.00&#39;&#34; (5122ms)">    at Object.AP Search for blouse (F:\Redstone\NightwatchTest\tests\addDressToCart.js:46:21)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
