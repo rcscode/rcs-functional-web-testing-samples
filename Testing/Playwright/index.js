@@ -39,13 +39,14 @@ const { chromium } = require('playwright');
     // Click text=/.*Continue shopping.*/
     await page.click('text=/.*Continue shopping.*/');
   
-    await page.click('#block_top_menu > ul > li:nth-child(1) > a');
-
+    // await page.click('#block_top_menu > ul > li:nth-child(1) > a');
+    await page.hover("#block_top_menu > ul > li:nth-child(1) > a");
     // Click a[id="color_8"]
-    await page.click('#center_column > ul > li:nth-child(5) > div > div.left-block > div > a.product_img_link', {position: {x: 10, y: 10}});
+    await page.click('#block_top_menu > ul > li:nth-child(1) > ul > li:nth-child(2) > ul > li:nth-child(3) > a');
     // assert.equal(page.url(), 'http://automationpractice.com/index.php?id_product=2&controller=product&search_query=blouse&results=1#/size-s/color-white');
 
-    await page.click("#color_14");
+    await page.hover("#color_20");
+    await page.click("#color_20");
     await page.selectOption("#group_1", "3");
   
     // Click text="Add to cart"
