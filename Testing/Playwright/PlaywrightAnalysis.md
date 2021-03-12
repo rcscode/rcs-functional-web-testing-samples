@@ -1,5 +1,5 @@
 
-# __An Analysis of Selenium__
+# __An Analysis of Playwright__
 
 ## __Document History__
 
@@ -55,7 +55,7 @@ There is also support for easier assertions, although this requires an outside l
 
 ## __Conclusions__
 
-If you had to pick a testing framework, don't forget about this one. While there are easier to use frameworks that have some more interesting support
+If you had to pick a testing framework, don't forget about this one. While there are easier to use frameworks that have some more interesting support, this framework is robust with very little issues in usage.
 
 |  | Ease of Use | Tools | Features | Site Variety | Framework Support | Documentation |
 | - | - | - | - | - | - | - |
